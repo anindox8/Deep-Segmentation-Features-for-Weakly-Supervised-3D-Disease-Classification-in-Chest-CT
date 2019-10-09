@@ -1,0 +1,131 @@
+Input params at 2019-07-28 19:38:56.
+[LABEL]
+-- spatial_window_size: (144, 144, 144)
+-- pixdim: ()
+-- csv_file: 
+-- axcodes: (u'A', u'R', u'S')
+-- loader: None
+-- filename_contains: (u'label_',)
+-- filename_not_contains: ()
+-- filename_removefromid: 
+-- path_to_search: /DataFolder/original_volumes/all_Segmentation_data
+-- interp_order: 0
+[CONFIG_FILE]
+-- path: /Local/scripts/lungs/segmentation/densevnet/config.ini
+[MASKING]
+-- spatial_window_size: (144, 144, 144)
+-- pixdim: ()
+-- csv_file: 
+-- axcodes: (u'A', u'R', u'S')
+-- loader: None
+-- filename_contains: (u'label_',)
+-- filename_not_contains: ()
+-- filename_removefromid: 
+-- path_to_search: /DataFolder/original_volumes/all_Segmentation_data
+-- interp_order: 0
+[CT]
+-- spatial_window_size: (144, 144, 144)
+-- pixdim: ()
+-- csv_file: 
+-- axcodes: (u'A', u'R', u'S')
+-- loader: None
+-- filename_contains: (u'CT_',)
+-- filename_not_contains: ()
+-- filename_removefromid: 
+-- path_to_search: /DataFolder/lungs/original_volumes/all_Segmentation_data/Pneumonia/
+-- interp_order: 1
+[CUSTOM]
+-- proba_connect: True
+-- min_numb_labels: 1
+-- weight: ()
+-- compulsory_labels: (0, 1)
+-- min_sampling_ratio: 0
+-- rand_samples: 0
+-- inferred: ()
+-- output_prob: True
+-- softmax: True
+-- evaluation_units: foreground
+-- sampler: (u'label',)
+-- label_normalisation: False
+-- label: (u'label',)
+-- image: (u'ct',)
+-- num_classes: 31
+-- name: net_segment
+[TRAINING]
+-- sample_per_volume: 4
+-- validation_max_iter: 1
+-- max_checkpoints: 100
+-- patience: 100
+-- do_elastic_deformation: False
+-- vars_to_restore: 
+-- tensorboard_every_n: 20
+-- save_every_n: 60
+-- early_stopping_mode: mean
+-- deformation_sigma: 15
+-- optimiser: adam
+-- lr: 0.001
+-- rotation_angle_z: ()
+-- rotation_angle_y: ()
+-- rotation_angle_x: ()
+-- scaling_percentage: (-20.0, 20.0)
+-- starting_iter: -1
+-- isotropic_scaling: False
+-- rotation_angle: (-10.0, 10.0)
+-- loss_type: dense_vnet_abdominal_ct.dice_hinge.dice
+-- exclude_fraction_for_validation: 0.0
+-- vars_to_freeze: 
+-- max_iter: 16000
+-- bias_field_range: ()
+-- bf_order: 3
+-- exclude_fraction_for_inference: 0.0
+-- num_ctrl_points: 4
+-- antialiasing: True
+-- proportion_to_deform: 0.5
+-- random_flipping_axes: (1, 2)
+-- validation_every_n: -1
+[NETWORK]
+-- cutoff: (0.01, 0.99)
+-- weight_initializer: he_normal
+-- keep_prob: 1.0
+-- norm_type: percentile
+-- window_sampling: resize
+-- normalisation: False
+-- rgb_normalisation: False
+-- multimod_foreground_type: and
+-- histogram_ref_file: ./histogram_ref_file.txt
+-- decay: 0.0
+-- force_output_identity_resizing: False
+-- smaller_final_batch_mode: pad
+-- weight_initializer_args: {}
+-- reg_type: L2
+-- bias_initializer: zeros
+-- queue_length: 5
+-- volume_padding_to_size: (0,)
+-- volume_padding_size: (0, 0, 0)
+-- activation_function: relu
+-- normalise_foreground_only: False
+-- batch_size: 3
+-- name: dense_vnet
+-- foreground_type: otsu_plus
+-- bias_initializer_args: {}
+-- whitening: False
+-- volume_padding_mode: minimum
+[INFERENCE]
+-- output_interp_order: 0
+-- fill_constant: 0.0
+-- spatial_window_size: (144, 144, 144)
+-- dataset_to_infer: 
+-- border: (0, 0, 0)
+-- save_seg_dir: /DataFolder/lungs/segmentation/densevnet/feature_maps/Pneumonia/
+-- output_postfix: _niftynet_out
+-- inference_iter: 31800
+[SYSTEM]
+-- cuda_devices: 0,1
+-- num_gpus: 2
+-- num_threads: 1
+-- iteration_generator: iteration_generator
+-- event_handler: (u'model_saver', u'model_restorer', u'sampler_threading', u'apply_gradients', u'output_interpreter', u'console_logger', u'tensorboard_logger', u'performance_logger')
+-- action: inference
+-- dataset_split_file: ./dataset_split.csv
+-- model_dir: /Local/scripts/lungs/segmentation/densevnet/model_weights
+-- queue_length: 36
