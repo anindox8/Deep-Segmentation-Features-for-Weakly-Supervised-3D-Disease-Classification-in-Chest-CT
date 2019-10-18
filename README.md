@@ -4,8 +4,8 @@
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
   ● Resample NIfTI Volume Resolutions: `preprocess/prime/resampleRes.py`  
   ● Infer StFA/DyFA Segmentation Sub-Model (DenseVNet): `python net_segment.py inference -c '../config.ini'`  
-  ● Preprocess Full Dataset to Optimized I/O HDF5 Patch-Volumes Training Files: `preprocess/prime/preprocess_alpha.py`  
-  ● Preprocess Full Dataset to Optimized I/O HDF5 Whole-Volumes Deployment Files: `preprocess/prime/preprocess_deploy.py`  
+  ● Preprocess Full Dataset to Optimized I/O HDF5 Training Patch-Volumes: `preprocess/prime/preprocess_alpha.py`  
+  ● Preprocess Full Dataset to Optimized I/O HDF5 Deployment Whole-Volumes: `preprocess/prime/preprocess_deploy.py`  
   ● Generate Data-Directory Feeder List: `feed/prime/feed_metadata.py`  
   ● Train StFA Classification Sub-Model: `train/prime/train_StFA.py`  
   ● Train DyFA Classification Sub-Model: `train/prime/train_DyFA.py`  
