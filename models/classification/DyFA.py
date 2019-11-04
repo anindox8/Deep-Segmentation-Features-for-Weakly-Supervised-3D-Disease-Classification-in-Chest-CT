@@ -78,7 +78,7 @@ def resnet_3d(inputs,
 
 
     
-    # VISUALIZE SEGMENTATION FEATURE MAPS
+    # Visualize Segmentation Feature Maps
     shape       = F.get_shape().as_list()
     ydim        = shape[2]
     xdim        = shape[3]
