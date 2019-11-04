@@ -1,5 +1,5 @@
 # Deep Segmentation Features in 3D Medical Classifier
-**Problem Statement**: Weakly supervised 3D binary classification of chest CT.
+**Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans.
 
 **Directories**  
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
