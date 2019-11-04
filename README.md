@@ -1,4 +1,4 @@
-# Leveraging Deep Segmentation Features in 3D Classification of Chest CT
+# Deep Segmentation Features in 3D Classification of Chest CT
 
 **Directories**  
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
