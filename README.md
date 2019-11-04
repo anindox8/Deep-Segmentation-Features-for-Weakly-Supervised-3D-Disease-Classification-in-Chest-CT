@@ -1,5 +1,6 @@
 # Deep Segmentation Features in 3D Medical Classifier
-**Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans.
+**Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans. 
+**Data**: *Class A*: Diseased Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Normal Cases. 
 
 **Directories**  
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
@@ -21,10 +22,6 @@
     Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided Diagnosis, Houston, TX, USA.
     (*manuscript accepted for oral presentation*)
                  
-                 
-## Dataset
-Class A: Diseased Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass)
-Class B: Normal Cases
 
 
 ## Network Architecture  
