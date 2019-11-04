@@ -1,4 +1,4 @@
-# Deep Segmentation Features in Medical Classifier
+# Deep Segmentation Features in 3D Medical Classifier
 
 **Directories**  
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
