@@ -16,8 +16,9 @@
 
 
 **Publications:**  
-  ● *In-Review*: A. Saha, F.I. Tushar, K. Faryna, R. Hou, G.D. Rubin, J.Y. Lo, "Weakly Supervised 3D Classification of Chest CT using  
-    Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided Diagnosis (CAD).
+  ● A. Saha, F.I. Tushar, K. Faryna, R. Hou, G.D. Rubin, J.Y. Lo (2020), "Weakly Supervised 3D Classification of Chest CT using  
+    Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided Diagnosis, Houston, TX, USA.
+    (*manuscript accepted for oral presentation*)
                  
                  
 
