@@ -22,6 +22,9 @@
     (*manuscript accepted for oral presentation*)
                  
                  
+## Dataset
+Class A: Diseased Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass)
+Class B: Normal Cases
 
 
 ## Network Architecture  
