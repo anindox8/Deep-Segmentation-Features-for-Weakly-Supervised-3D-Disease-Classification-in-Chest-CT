@@ -1,4 +1,4 @@
-# Deep Segmentation Features in Dual-Stage 3D CNN
+# Deep Segmentation Features for Classification via Dual-Stage 3D CNN
 **Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans. 
 
 **Data**: *Class A*: Diseased Lungs Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Normal Lungs Cases. 
