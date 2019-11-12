@@ -1,4 +1,4 @@
-# Deep Segmentation Features for Weakly Supervised Classification via Dual-Stage 3D CNN 
+# Deep Segmentation Features for Weakly Supervised Classification via 3D Dual-Stage CNN 
 
 **Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans. 
 
