@@ -3,9 +3,6 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 import numpy as np
-from scipy.ndimage.interpolation import map_coordinates
-from scipy.ndimage.filters import gaussian_filter
-from dltk.io.preprocessing import resize_image_with_crop_or_pad
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -51,19 +48,14 @@ def extract_class_balanced_example_array(image,
     Returns:
         np.ndarray, np.ndarray: class-balanced patches extracted from full
             images with the shape [batch, example_size..., image_channels]
+
+    Reference: DLTK
     """
     assert image.shape[:-1] == label.shape, 'Image and label shape must match'
     assert image.ndim - 1 == len(example_size), \
         'Example size doesnt fit image size'
-    #assert all([i_s >= e_s for i_s, e_s in zip(image.shape, example_size)]), \
-        #'Image must be larger than example shape'
-    rank = len(example_size)
-   
-    #if ([i_s >= e_s for i_s, e_s in zip(image.shape, example_size)]):
-       #image=resize_image_with_crop_or_pad(image, [160, 230, 230], mode='symmetric')
-       #label=resize_image_with_crop_or_pad(label, [160, 230, 230], mode='symmetric')
 
-       
+    rank = len(example_size)
 
     if isinstance(classes, int):
         classes = tuple(range(classes))
@@ -78,8 +70,7 @@ def extract_class_balanced_example_array(image,
         class_weights = np.array(class_weights)
         n_ex_per_class = np.round((class_weights / class_weights.sum()) * n_examples).astype(int)
 
-    # Compute an example radius to define the region to extract around a
-    # center location
+    # Compute an example radius to define the region to extract around center location
     ex_rad = np.array(list(zip(np.floor(np.array(example_size) / 2.0),
                                np.ceil(np.array(example_size) / 2.0))),
                       dtype=np.int)
