@@ -4,7 +4,7 @@
 
 **Data**: *Class A*: Diseased Lungs Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Normal Lungs Cases. 
 
-**Note**: The following repository is currently under development. It is functional, only pending a full cleanup.
+**Note**: The following repository currently serves as an archive. It is functional, but requires a full cleanup.
 
 **Directories**  
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
