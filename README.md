@@ -2,7 +2,7 @@
 
 **Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans. 
 
-**Data**: *Class A*: Diseased Lungs Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Healthy Lungs Cases. 
+**Data** (*proprietary to Duke University Medical Center*): *Class A*: Diseased Lungs Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Healthy Lungs Cases. 
 
 **Note**: The following repository currently serves as an archive. It is functional, but requires a full cleanup.
 
