@@ -2,7 +2,7 @@
 
 **Problem Statement**: Weakly supervised 3D classification of multi-organ, multi-disease CT scans. 
 
-**Data** (*proprietary to Duke University Medical Center*): *Class A*: Diseased Lungs Cases (Pneumonia-Atelectasis, Emphysema, Nodules, Mass); *Class B:* Healthy Lungs Cases. 
+**Data** (*proprietary to Duke University Medical Center*): 1054 Diseased Lungs Cases (286 Pneumonia-Atelectasis, 279 Emphysema, 246 Nodules, 243 Mass); 577 Healthy Lungs Cases. 
 
 **Note**: The following repository currently serves as an archive. It is functional, but requires a full cleanup.
 
@@ -22,9 +22,9 @@
 
 
 **Related Publication(s):**  
-  ● A. Saha, F.I. Tushar, K. Faryna, V.D. Anniballe, R. Hou, M.A. Mazurowski, G.D. Rubin, J.Y. Lo (2020), "Weakly Supervised 3D   
+  ● [A. Saha, F.I. Tushar, K. Faryna, V.D. Anniballe, R. Hou, M.A. Mazurowski, G.D. Rubin, J.Y. Lo (2020), "Weakly Supervised 3D   
     Classification of Chest CT using Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided 
-    Diagnosis, Houston, TX, USA. DOI:10.1117/12.2550857
+    Diagnosis, Houston, TX, USA. DOI:10.1117/12.2550857](https://www.researchgate.net/publication/339956486_Weakly_Supervised_3D_Classification_of_Chest_CT_using_Aggregated_Multi-Resolution_Deep_Segmentation_Features)
                  
 
 
