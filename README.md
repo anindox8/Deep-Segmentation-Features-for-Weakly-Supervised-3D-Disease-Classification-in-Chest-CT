@@ -22,9 +22,7 @@
 
 
 **Related Publication(s):**  
-  ● [A. Saha, F.I. Tushar, K. Faryna, V.D. Anniballe, R. Hou, M.A. Mazurowski, G.D. Rubin, J.Y. Lo (2020), "Weakly Supervised 3D   
-    Classification of Chest CT using Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided 
-    Diagnosis, Houston, TX, USA. DOI:10.1117/12.2550857](https://www.researchgate.net/publication/339956486_Weakly_Supervised_3D_Classification_of_Chest_CT_using_Aggregated_Multi-Resolution_Deep_Segmentation_Features)
+  ● [A. Saha, F.I. Tushar, K. Faryna, V.D. Anniballe, R. Hou, M.A. Mazurowski, G.D. Rubin, J.Y. Lo (2020), "Weakly Supervised 3D Classification of Chest CT using Aggregated Multi-Resolution Deep Segmentation Features", 2020 SPIE Medical Imaging: Computer-Aided Diagnosis, Houston, TX, USA. DOI:10.1117/12.2550857](https://www.researchgate.net/publication/339956486_Weakly_Supervised_3D_Classification_of_Chest_CT_using_Aggregated_Multi-Resolution_Deep_Segmentation_Features)
                  
 
 
