@@ -4,7 +4,7 @@
 
 **Data** (*proprietary to Duke University Medical Center*): 1054 Diseased Lungs Cases (286 Pneumonia-Atelectasis, 279 Emphysema, 246 Nodules, 243 Mass); 577 Healthy Lungs Cases. 
 
-**Note**: The following repository currently serves as an archive. It is functional, but requires a full cleanup. All updates to the implementation can be found [here](https://github.com/fitushar/WeaklySupervised-3D-Classification-of-Chest-CT-using-Aggregated-MultiResolution-Segmentation-Feature).
+**Note**: The following repository currently serves as an archive. It is functional, but requires a full cleanup and directory setup. All updates to the implementation can be found [here](https://github.com/fitushar/WeaklySupervised-3D-Classification-of-Chest-CT-using-Aggregated-MultiResolution-Segmentation-Feature).
 
 **Directories**  
   ● Convert DICOM to NIfTI Volumes: `preprocess/prime/DICOM_NIFTI.py`  
